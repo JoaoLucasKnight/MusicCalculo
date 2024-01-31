@@ -24,3 +24,7 @@ S
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 Å
 Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,2\c\2cabb939da04d3de3a200bf2b575690e1a16316d
+V
+&src/main/kotlin/services/Autenticar.kt,f\5\f5edbc7ad8149e252aa785e519675e7930abcf6d
+V
+&src/main/kotlin/services/ConsumoApi.kt,b\4\b43fc95dbda9808a0952486e5fcc663246078322

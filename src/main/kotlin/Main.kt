@@ -1,6 +1,7 @@
 package br.com.consumoapi
 
 import br.com.consumoapi.services.Consumo
+import br.com.consumoapi.services.ConsumoApi
 import br.com.consumoapi.utils.Calculadora
 import java.util.*
 
@@ -29,6 +30,10 @@ fun main() {
   println(lista[i].name)
   print("Esta musica começa as: ")
   calculadora.viraTempo(horaInicial)
+
+  val api = ConsumoApi()
+  api.pegarJson()
+
 
 
 
