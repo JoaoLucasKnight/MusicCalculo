@@ -31,10 +31,4 @@ fun main() {
   print("Esta musica começa as: ")
   calculadora.viraTempo(horaInicial)
 
-  val api = ConsumoApi()
-  api.pegarJson()
-
-
-
-
 }
