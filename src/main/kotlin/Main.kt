@@ -1,26 +1,24 @@
 package br.com.consumoapi
 
-import br.com.consumoapi.services.Consumo
 import br.com.consumoapi.services.ConsumoApi
 import br.com.consumoapi.utils.Calculadora
-import java.util.*
-
 
 
 fun main() {
 
-  val consumo = Consumo()
+
   val calculadora = Calculadora()
-  val lista = consumo.listaDeMusicas()
+  val  dados = ConsumoApi()
+  val lista = dados.pegaPlayList()
 
 
-  val horaAtual = calculadora.transformaEmMS(13 ,16)
+
+  val horaAtual = calculadora.transformaEmMS(17 ,16)
+  var horaInicial =  calculadora.transformaEmMS(5,30)
   var i = 0
-  var horaInicial =  19800000
-  do {
 
-    var soma = calculadora.operando(horaInicial,lista[i].duration_ms)
-    horaInicial = soma
+  do {
+    horaInicial += calculadora.operando(horaInicial,lista[i].duration_ms)
     i++
   }while (horaInicial < horaAtual)
 
