@@ -22,3 +22,7 @@ Estava com um projeto de criar uma rádio que tocasse a mesma playlist de músic
 #  Conclusão:
 
 Foi uma longa jornada, mas consegui resolver o problema, aplicando meus conhecimentos na prática e aprendendo muitas coisas novas no processo. Ser um bom programador é buscar conhecimento, investigar novas soluções, fazer testes, criar soluções criativas e sempre buscar melhorar. Isso é o que este projeto me ensinou.
+
+
+**Lembrar**
+	alterar o clientSecret para um válido, acesse [spotify para desenvolvedor](https://developer.spotify.com)
