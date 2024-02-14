@@ -12,7 +12,7 @@ object Autenticar {
 
     // Credenciais do cliente
     val clientId = "23948ccb57bf49d8b33ddc7277ebfe37"
-    val clientSecret = "0c6d70d54bc440eba6b669f6fdff930c"
+    val clientSecret = "0c6d70d54bc440eba6b669f6fdff930c"// solocar seus  clientSecret
 
     // Parâmetros da solicitação
     val grantType = "client_credentials"
